@@ -18,10 +18,12 @@ const getResponseByOnirix =  async (req  , res) => {
 
     try {
         bot.ask(prompt).then(response => {
-            res.status(200).send(response);
+            res.status(200).json(
+                {
+                    message : response
+                }
+            );
         })
-
-        console.log(req.body.hello)
 
     } catch (_err) {
         res.status(500).json({

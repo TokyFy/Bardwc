@@ -6,6 +6,6 @@ const router = express.Router();
 
 router
     .route('/ask')
-    .get(getResponseByOnirix)
+    .post(getResponseByOnirix)
 
 export default router

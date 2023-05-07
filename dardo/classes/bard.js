@@ -43,7 +43,7 @@ class Bard {
         await this.db.WaitForLoad();
     }
     addConversation(id) {
-        let conversation = {
+        let conversation = {s
             id: id,
             c: "",
             r: "",

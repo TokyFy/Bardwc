@@ -1,4 +1,4 @@
-import { Bard } from "../googlebard/dist/index.js";
+import { Bard } from "../dardo/index.js";
 
 let cookies = `__Secure-1PSID=WQh1u-GBCsXSYdLqgSwpjILyb7us-J1FphF1gZUNXZCGiT5G8ctgf6srZvuAQ9fQ3V-A_A.`;
 
